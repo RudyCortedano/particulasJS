@@ -1,0 +1,28 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: black;
+}
+
+.prueba {
+    margin: 0 auto;
+    background: rgba(0, 0, 0, .8);
+    padding: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: 1px solid #fff;
+    position: relative;
+    z-index: 99;
+}
+
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
